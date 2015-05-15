@@ -1,0 +1,6 @@
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\bin\Debug\LanguageIntro.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\bin\Debug\LanguageIntro.exe
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\bin\Debug\LanguageIntro.pdb
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\obj\Debug\LanguageIntro.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\obj\Debug\LanguageIntro.exe
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\LanguageIntro\LanguageIntro\obj\Debug\LanguageIntro.pdb

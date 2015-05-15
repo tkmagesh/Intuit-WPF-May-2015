@@ -1,0 +1,6 @@
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\bin\Debug\ProductManagementApp.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\obj\Debug\ProductManagementApp.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\bin\Debug\ProductManagementApp.exe
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\bin\Debug\ProductManagementApp.pdb
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\obj\Debug\ProductManagementApp.exe
+D:\Training\Intuit-WPF-May-2015\Day-01\01-Language\ProductManagementApp\ProductManagementApp\obj\Debug\ProductManagementApp.pdb
