@@ -5,7 +5,7 @@
         FontSize="28"
         Title="ControlBindingWindow" Height="300" Width="300">
     <StackPanel>
-        <Slider Minimum="0" Maximum="255" SmallChange="1"  Name="MySlider" ></Slider>
+        <Slider Minimum="0" Maximum="255" SmallChange="1" LargeChange="1" Name="MySlider" TickFrequency="2" IsSnapToTickEnabled="True" ></Slider>
         <TextBlock HorizontalAlignment="Center"  Name="TextBlockSliderValue" >
             <TextBlock.Resources>
                 <myApp:ValueToSolidColorBrushConverter x:Key="myValueToColorConverter"></myApp:ValueToSolidColorBrushConverter>

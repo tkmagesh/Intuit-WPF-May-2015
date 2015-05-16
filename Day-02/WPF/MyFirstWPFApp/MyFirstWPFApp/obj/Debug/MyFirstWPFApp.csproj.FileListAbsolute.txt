@@ -15,3 +15,5 @@ D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug\ControlBindingWindow.g.cs
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug\MyFirstWPFApp_MarkupCompile.lref
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug\ColorPickerWindow.baml
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\MyFirstWPFApp\MyFirstWPFApp\obj\Debug\ColorPickerWindow.g.cs

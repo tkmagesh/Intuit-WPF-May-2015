@@ -1,0 +1,54 @@
+﻿<Window x:Class="MyFirstWPFApp.ColorPickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="26"
+        xmlns:myApp="clr-namespace:MyFirstWPFApp"
+        Title="ColorPickerWindow" Height="300" Width="450">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <TextBlock Text="Red :"></TextBlock>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Text="{Binding ElementName=SliderRed, Path=Value}" Foreground="Red" DockPanel.Dock="Right" VerticalAlignment="Center" ></TextBlock>
+                    <Slider Name="SliderRed" SmallChange="1" LargeChange="1" IsSnapToTickEnabled="True" Minimum="0" Maximum="255" DockPanel.Dock="Left" VerticalAlignment="Center"></Slider>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <TextBlock Text="Green :"></TextBlock>
+                <DockPanel LastChildFill="True">
+                    <TextBlock  Text="{Binding ElementName=SliderGreen, Path=Value}" Foreground="Green" DockPanel.Dock="Right" VerticalAlignment="Center" ></TextBlock>
+                    <Slider Name="SliderGreen" SmallChange="1" LargeChange="1" IsSnapToTickEnabled="True" Minimum="0" Maximum="255" DockPanel.Dock="Left" VerticalAlignment="Center"></Slider>
+                </DockPanel>
+
+            </StackPanel>
+            <StackPanel Grid.Row="2">
+                <TextBlock Text="Blue :"></TextBlock>
+                <DockPanel LastChildFill="True">
+                    <TextBlock  Text="{Binding ElementName=SliderBlue, Path=Value}" Foreground="Blue" DockPanel.Dock="Right" VerticalAlignment="Center" ></TextBlock>
+                    <Slider Name="SliderBlue" SmallChange="1" LargeChange="1" IsSnapToTickEnabled="True" Minimum="0" Maximum="255" DockPanel.Dock="Left" VerticalAlignment="Center"></Slider>
+                </DockPanel>
+            </StackPanel>
+        </Grid>
+        <Border Grid.Column="1" Margin="10" CornerRadius="10" BorderThickness="2" BorderBrush="Black">
+            <Border.Resources>
+                <myApp:ValuesToBrushConverter x:Key="valuesToBrushConverter"></myApp:ValuesToBrushConverter>
+            </Border.Resources>
+            <Border.Background>
+                <MultiBinding Converter="{StaticResource valuesToBrushConverter}">
+                    <Binding ElementName="SliderRed" Path="Value"></Binding>
+                    <Binding ElementName="SliderGreen" Path="Value"></Binding>
+                    <Binding ElementName="SliderBlue" Path="Value"></Binding>
+                </MultiBinding>
+            </Border.Background>
+        </Border>
+    </Grid>
+</Window>
