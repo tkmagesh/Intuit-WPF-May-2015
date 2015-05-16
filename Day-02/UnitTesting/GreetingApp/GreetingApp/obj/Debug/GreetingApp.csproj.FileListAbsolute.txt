@@ -3,3 +3,4 @@ D:\Training\Intuit-WPF-May-2015\Day-02\UnitTesting\GreetingApp\GreetingApp\bin\D
 D:\Training\Intuit-WPF-May-2015\Day-02\UnitTesting\GreetingApp\GreetingApp\bin\Debug\GreetingApp.pdb
 D:\Training\Intuit-WPF-May-2015\Day-02\UnitTesting\GreetingApp\GreetingApp\obj\Debug\GreetingApp.exe
 D:\Training\Intuit-WPF-May-2015\Day-02\UnitTesting\GreetingApp\GreetingApp\obj\Debug\GreetingApp.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\UnitTesting\GreetingApp\GreetingApp\obj\Debug\GreetingApp.csprojResolveAssemblyReference.cache

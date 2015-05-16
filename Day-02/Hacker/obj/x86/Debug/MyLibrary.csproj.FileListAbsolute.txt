@@ -1,0 +1,4 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\Hacker\bin\Debug\MyLibrary.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\Hacker\bin\Debug\MyLibrary.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\Hacker\obj\x86\Debug\MyLibrary.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\Hacker\obj\x86\Debug\MyLibrary.pdb

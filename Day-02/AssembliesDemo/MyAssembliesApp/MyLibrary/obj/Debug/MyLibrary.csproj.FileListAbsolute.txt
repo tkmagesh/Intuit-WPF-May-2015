@@ -1,0 +1,5 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\AssembliesDemo\MyAssembliesApp\MyLibrary\bin\Debug\MyLibrary.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\AssembliesDemo\MyAssembliesApp\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\AssembliesDemo\MyAssembliesApp\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-02\AssembliesDemo\MyAssembliesApp\MyLibrary\obj\Debug\MyLibrary.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\AssembliesDemo\MyAssembliesApp\MyLibrary\obj\Debug\MyLibrary.pdb
