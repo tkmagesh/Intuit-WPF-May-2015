@@ -23,16 +23,12 @@ namespace LINQDemo
     {
         public static string Display(this IDisplayable obj)
         {
-            var objType = obj.GetType();
-            PropertyInfo[] propertyInfos = objType.GetProperties();
-
-            var result = propertyInfos
+            return obj
+                .GetType()
+                .GetProperties()
                 .Where(propertyInfo => !propertyInfo.GetCustomAttributes<IgnoreDisplayAttribute>().Any())
                 .Select(propertyInfo => propertyInfo.Name + " = " + propertyInfo.GetValue(obj, null))
                 .Aggregate(string.Empty, (prevResult, s) => prevResult + s + "\t");
-                
-            
-            return result;
         }
     }
 
