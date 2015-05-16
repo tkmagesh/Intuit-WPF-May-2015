@@ -1,0 +1,4 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamspacesDemoApp.CustomerMgmt\bin\Debug\NamspacesDemoApp.CustomerMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamspacesDemoApp.CustomerMgmt\bin\Debug\NamspacesDemoApp.CustomerMgmt.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamspacesDemoApp.CustomerMgmt\obj\Debug\NamspacesDemoApp.CustomerMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamspacesDemoApp.CustomerMgmt\obj\Debug\NamspacesDemoApp.CustomerMgmt.pdb

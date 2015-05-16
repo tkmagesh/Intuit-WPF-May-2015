@@ -1,0 +1,4 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemo.EmployeeMgmt\bin\Debug\NamespacesDemo.EmployeeMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemo.EmployeeMgmt\bin\Debug\NamespacesDemo.EmployeeMgmt.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemo.EmployeeMgmt\obj\Debug\NamespacesDemo.EmployeeMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemo.EmployeeMgmt\obj\Debug\NamespacesDemo.EmployeeMgmt.pdb

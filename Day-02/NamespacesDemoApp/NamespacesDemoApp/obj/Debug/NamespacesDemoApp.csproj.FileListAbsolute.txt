@@ -1,0 +1,12 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemoApp.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemoApp.exe
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemoApp.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\obj\Debug\NamespacesDemoApp.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\obj\Debug\NamespacesDemoApp.exe
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\obj\Debug\NamespacesDemoApp.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemo.EmployeeMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemoApp.ProductMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamspacesDemoApp.CustomerMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemo.EmployeeMgmt.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamespacesDemoApp.ProductMgmt.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp\bin\Debug\NamspacesDemoApp.CustomerMgmt.pdb

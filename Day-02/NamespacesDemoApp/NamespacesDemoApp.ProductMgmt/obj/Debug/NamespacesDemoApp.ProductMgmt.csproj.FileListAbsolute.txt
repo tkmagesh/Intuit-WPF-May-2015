@@ -1,0 +1,4 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp.ProductMgmt\bin\Debug\NamespacesDemoApp.ProductMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp.ProductMgmt\bin\Debug\NamespacesDemoApp.ProductMgmt.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp.ProductMgmt\obj\Debug\NamespacesDemoApp.ProductMgmt.dll
+D:\Training\Intuit-WPF-May-2015\Day-02\NamespacesDemoApp\NamespacesDemoApp.ProductMgmt\obj\Debug\NamespacesDemoApp.ProductMgmt.pdb
