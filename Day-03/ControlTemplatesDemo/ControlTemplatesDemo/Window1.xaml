@@ -1,0 +1,13 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WindowsFormsControlLibrary1="clr-namespace:WindowsFormsControlLibrary1;assembly=WindowsFormsControlLibrary1" x:Class="ControlTemplatesDemo.Window1"
+        Title="Window1" Height="332.707" Width="360.902">
+    <Grid>
+        <WindowsFormsHost Height="236" VerticalAlignment="Top" Width="260">
+            <WindowsFormsControlLibrary1:UserControl1 Name="MyUserControl1" x:Name="MyUserControl1"/>
+        </WindowsFormsHost>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Margin="46,263,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>

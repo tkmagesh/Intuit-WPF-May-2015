@@ -1,0 +1,108 @@
+﻿<Application x:Class="ControlTemplatesDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Window1.xaml">
+    <Application.Resources>
+         
+    	<Style x:Key="FocusVisual">
+    		<Setter Property="Control.Template">
+    			<Setter.Value>
+    				<ControlTemplate>
+    					<Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<SolidColorBrush x:Key="OptionMark.Static.Background" Color="#FFFFFFFF"/>
+    	<SolidColorBrush x:Key="OptionMark.Static.Border" Color="#FF707070"/>
+    	<Style x:Key="OptionMarkFocusVisual">
+    		<Setter Property="Control.Template">
+    			<Setter.Value>
+    				<ControlTemplate>
+    					<Rectangle Margin="14,0,0,0" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+    	<SolidColorBrush x:Key="OptionMark.MouseOver.Background" Color="#FFF3F9FF"/>
+    	<SolidColorBrush x:Key="OptionMark.MouseOver.Border" Color="#FF5593FF"/>
+    	<SolidColorBrush x:Key="OptionMark.MouseOver.Glyph" Color="#FF212121"/>
+    	<SolidColorBrush x:Key="OptionMark.Disabled.Background" Color="#FFE6E6E6"/>
+    	<SolidColorBrush x:Key="OptionMark.Disabled.Border" Color="#FFBCBCBC"/>
+    	<SolidColorBrush x:Key="OptionMark.Disabled.Glyph" Color="#FF707070"/>
+    	<SolidColorBrush x:Key="OptionMark.Pressed.Background" Color="#FFD9ECFF"/>
+    	<SolidColorBrush x:Key="OptionMark.Pressed.Border" Color="#FF3C77DD"/>
+    	<SolidColorBrush x:Key="OptionMark.Pressed.Glyph" Color="#FF212121"/>
+    	<SolidColorBrush x:Key="OptionMark.Static.Glyph" Color="#FF212121"/>
+    	<Style TargetType="{x:Type CheckBox}" x:Key="SelectiveCheckBox">
+    		<Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+    		<Setter Property="Background" Value="{StaticResource OptionMark.Static.Background}"/>
+    		<Setter Property="BorderBrush" Value="{StaticResource OptionMark.Static.Border}"/>
+    		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+    		<Setter Property="BorderThickness" Value="1"/>
+    		<Setter Property="Template">
+    			<Setter.Value>
+    				<ControlTemplate TargetType="{x:Type CheckBox}">
+    					<ControlTemplate.Resources>
+    						<Storyboard x:Key="Storyboard1">
+    							<ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="rectangle">
+    								<EasingColorKeyFrame KeyTime="0" Value="#FFE01616"/>
+    								<EasingColorKeyFrame KeyTime="0:0:1" Value="sc#1, 0.008568126, 0.00699541, 0.00699541"/>
+    								<EasingColorKeyFrame KeyTime="0:0:3" Value="#FFE20F0F"/>
+    							</ColorAnimationUsingKeyFrames>
+    							<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="grid">
+    								<DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static HorizontalAlignment.Stretch}"/>
+    							</ObjectAnimationUsingKeyFrames>
+    							<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.VerticalAlignment)" Storyboard.TargetName="grid">
+    								<DiscreteObjectKeyFrame KeyTime="0:0:3" Value="{x:Static VerticalAlignment.Stretch}"/>
+    							</ObjectAnimationUsingKeyFrames>
+    						</Storyboard>
+    						<Storyboard x:Key="Storyboard2"/>
+    					</ControlTemplate.Resources>
+    					<Grid x:Name="grid" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="Auto">
+    						<Grid.ColumnDefinitions>
+    							<ColumnDefinition/>
+    							<ColumnDefinition/>
+    						</Grid.ColumnDefinitions>
+    						<ContentPresenter HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" Grid.Column="1"/>
+    						<Border BorderBrush="#FFB27E7E" BorderThickness="1" Grid.ColumnSpan="1" HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" Padding="1" Background="#FFBFA2A2">
+    							<Grid HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" Margin="0">
+    								<Grid.ColumnDefinitions>
+    									<ColumnDefinition Width="*"/>
+    									<ColumnDefinition Width="*"/>
+    									<ColumnDefinition Width="*"/>
+    								</Grid.ColumnDefinitions>
+    								<Rectangle x:Name="rectangle" Fill="#FFAE6060" HorizontalAlignment="Stretch" Height="Auto" VerticalAlignment="Stretch" Width="Auto" Margin="2" Stroke="#FFF70C0C" StrokeThickness="2"/>
+    							</Grid>
+    						</Border>
+    					</Grid>
+    					<ControlTemplate.Triggers>
+    						<Trigger Property="IsChecked" Value="True">
+    							<Trigger.EnterActions>
+    								<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+    							</Trigger.EnterActions>
+    							<Setter Property="Grid.Column" TargetName="rectangle" Value="2"/>
+    						</Trigger>
+    						<Trigger Property="IsChecked" Value="False">
+    							<Trigger.EnterActions>
+    								<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+    							</Trigger.EnterActions>
+    							<Setter Property="Grid.Column" TargetName="rectangle" Value="0"/>
+    						</Trigger>
+    						<Trigger Property="HasContent" Value="true">
+    							<Setter Property="FocusVisualStyle" Value="{StaticResource OptionMarkFocusVisual}"/>
+    							<Setter Property="Padding" Value="4,-1,0,0"/>
+    						</Trigger>
+    						<Trigger Property="IsMouseOver" Value="true"/>
+    						<Trigger Property="IsEnabled" Value="false"/>
+    						<Trigger Property="IsPressed" Value="true"/>
+    						<Trigger Property="IsChecked" Value="true"/>
+    						<Trigger Property="IsChecked" Value="{x:Null}"/>
+    					</ControlTemplate.Triggers>
+    				</ControlTemplate>
+    			</Setter.Value>
+    		</Setter>
+    	</Style>
+         
+    </Application.Resources>
+</Application>

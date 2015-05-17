@@ -1,0 +1,9 @@
+﻿<Window x:Class="ControlTemplatesDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+    	<CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,65,0,0" Height="30.098" Width="186.395" Style="{DynamicResource SelectiveCheckBox}"/>
+        
+    </Grid>
+</Window>

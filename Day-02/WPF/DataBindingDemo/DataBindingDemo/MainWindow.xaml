@@ -40,8 +40,8 @@
                 <Slider Name="TaxSlider" Minimum="0" Maximum="30" IsSnapToTickEnabled="True" SmallChange="1" LargeChange="1" Value="{Binding Path=Tax}" ></Slider>
             </DockPanel>
             <StackPanel Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Name="BtnCalculate" Content="Calculate" HorizontalAlignment="Center" Click="BtnCalculate_Click" ></Button>
-                <Button Name="BtnUpdateCalculator" Content="Update Calculator" HorizontalAlignment="Center" Click="BtnUpdateCalculator_OnClick" ></Button>
+                <Button Command="{Binding Path=CalculateCommand}" Name="BtnCalculate" Content="Calculate" HorizontalAlignment="Center"  ></Button>
+                <Button Name="BtnUpdateCalculator" Content="Update Calculator" HorizontalAlignment="Center" Command="{Binding Path=UpdateCalculatorCommand}" ></Button>
             </StackPanel>
             <TextBlock Name="TextBlockSalary" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="30" Text="{Binding Path=Salary}"></TextBlock>
         </Grid>

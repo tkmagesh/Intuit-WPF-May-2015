@@ -1,0 +1,6 @@
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\bin\Debug\MEFDemo.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\bin\Debug\MEFDemo.exe
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\bin\Debug\MEFDemo.pdb
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\obj\Debug\MEFDemo.exe
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\obj\Debug\MEFDemo.pdb
+D:\Training\Intuit-WPF-May-2015\Day-03\MEFDemo\MEFDemo\obj\Debug\MEFDemo.csprojResolveAssemblyReference.cache

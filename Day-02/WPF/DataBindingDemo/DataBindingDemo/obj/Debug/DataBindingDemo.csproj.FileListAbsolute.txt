@@ -13,3 +13,5 @@ D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\D
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.pdb
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo_MarkupCompile.lref
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\EmployeeList.baml
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\EmployeeList.g.cs

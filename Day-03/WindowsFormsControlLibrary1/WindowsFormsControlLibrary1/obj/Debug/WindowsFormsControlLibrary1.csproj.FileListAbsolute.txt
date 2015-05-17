@@ -1,0 +1,7 @@
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.UserControl1.resources
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.GenerateResource.Cache
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+D:\Training\Intuit-WPF-May-2015\Day-03\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb

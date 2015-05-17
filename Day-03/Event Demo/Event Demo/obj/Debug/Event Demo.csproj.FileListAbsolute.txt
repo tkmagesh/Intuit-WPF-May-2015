@@ -1,0 +1,12 @@
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\bin\Debug\Event Demo.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\bin\Debug\Event Demo.exe
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\bin\Debug\Event Demo.pdb
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\MainWindow.baml
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\MainWindow.g.cs
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\App.g.cs
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event Demo_MarkupCompile.cache
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event Demo.g.resources
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event_Demo.Properties.Resources.resources
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event Demo.csproj.GenerateResource.Cache
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event Demo.exe
+D:\Training\Intuit-WPF-May-2015\Day-03\Event Demo\Event Demo\obj\Debug\Event Demo.pdb

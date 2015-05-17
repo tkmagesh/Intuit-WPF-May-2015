@@ -1,0 +1,6 @@
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\bin\Debug\DITransformer.dll
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\bin\Debug\DITransformer.pdb
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\bin\Debug\DIDemo.Contracts.dll
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\obj\Debug\DITransformer.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\obj\Debug\DITransformer.dll
+D:\Training\Intuit-WPF-May-2015\Day-03\DITransformer\DITransformer\obj\Debug\DITransformer.pdb
