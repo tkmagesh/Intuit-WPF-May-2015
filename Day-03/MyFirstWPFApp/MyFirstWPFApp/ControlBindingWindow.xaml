@@ -1,0 +1,21 @@
+﻿<Window x:Class="MyFirstWPFApp.ControlBindingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:myApp="clr-namespace:MyFirstWPFApp"
+        FontSize="28"
+        Title="ControlBindingWindow" Height="300" Width="300">
+    <StackPanel>
+        <Slider Minimum="0" Maximum="255" SmallChange="1" LargeChange="1" Name="MySlider" TickFrequency="2" IsSnapToTickEnabled="True" ></Slider>
+        <TextBlock HorizontalAlignment="Center"  Name="TextBlockSliderValue" >
+            <TextBlock.Resources>
+                <myApp:ValueToSolidColorBrushConverter x:Key="myValueToColorConverter"></myApp:ValueToSolidColorBrushConverter>
+            </TextBlock.Resources>
+            <TextBlock.Text>
+                <Binding ElementName="MySlider" Path="Value"></Binding>
+            </TextBlock.Text>
+            <TextBlock.Foreground>
+                <Binding ElementName="MySlider" Path="Value" Converter="{StaticResource ResourceKey=myValueToColorConverter}"></Binding>
+            </TextBlock.Foreground>
+        </TextBlock>
+    </StackPanel>
+</Window>

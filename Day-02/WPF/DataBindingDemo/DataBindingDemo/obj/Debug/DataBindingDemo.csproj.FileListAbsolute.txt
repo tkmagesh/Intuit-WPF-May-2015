@@ -1,0 +1,15 @@
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\bin\Debug\DataBindingDemo.exe.config
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\bin\Debug\DataBindingDemo.exe
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\bin\Debug\DataBindingDemo.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.csprojResolveAssemblyReference.cache
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\MainWindow.baml
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\MainWindow.g.cs
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\App.g.cs
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo_MarkupCompile.cache
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.g.resources
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.Properties.Resources.resources
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.csproj.GenerateResource.Cache
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.exe
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo.pdb
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Training\Intuit-WPF-May-2015\Day-02\WPF\DataBindingDemo\DataBindingDemo\obj\Debug\DataBindingDemo_MarkupCompile.lref
